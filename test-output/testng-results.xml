@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9104" started-at="2021-02-13T12:36:00Z" finished-at="2021-02-13T12:36:09Z">
+    <groups>
+      <group name="SpacexDemo-AP">
+        <method signature="GETSpaceXData.ValidateErrorInResponseWhenInvalidParameterPassedInRequest()[pri:0, instance:com.test.GETSpaceXData@e25b2fe]" name="ValidateErrorInResponseWhenInvalidParameterPassedInRequest" class="com.test.GETSpaceXData"/>
+        <method signature="GETSpaceXData.ValidateResponseTimeIsLessThanTwoSeconds()[pri:0, instance:com.test.GETSpaceXData@e25b2fe]" name="ValidateResponseTimeIsLessThanTwoSeconds" class="com.test.GETSpaceXData"/>
+        <method signature="GETSpaceXData.ValidateSpaceSatelliteLaunchDetails()[pri:0, instance:com.test.GETSpaceXData@e25b2fe]" name="ValidateSpaceSatelliteLaunchDetails" class="com.test.GETSpaceXData"/>
+        <method signature="GETSpaceXData.ValidateSuccessStatusCodeReturnedInResponse()[pri:0, instance:com.test.GETSpaceXData@e25b2fe]" name="ValidateSuccessStatusCodeReturnedInResponse" class="com.test.GETSpaceXData"/>
+      </group> <!-- SpacexDemo-AP -->
+    </groups>
+    <test name="Default test" duration-ms="9104" started-at="2021-02-13T12:36:00Z" finished-at="2021-02-13T12:36:09Z">
+      <class name="com.test.GETSpaceXData">
+        <test-method status="PASS" signature="ValidateErrorInResponseWhenInvalidParameterPassedInRequest()[pri:0, instance:com.test.GETSpaceXData@e25b2fe]" name="ValidateErrorInResponseWhenInvalidParameterPassedInRequest" duration-ms="3543" started-at="2021-02-13T12:36:00Z" finished-at="2021-02-13T12:36:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateErrorInResponseWhenInvalidParameterPassedInRequest -->
+        <test-method status="PASS" signature="ValidateResponseTimeIsLessThanTwoSeconds()[pri:0, instance:com.test.GETSpaceXData@e25b2fe]" name="ValidateResponseTimeIsLessThanTwoSeconds" duration-ms="1979" started-at="2021-02-13T12:36:03Z" finished-at="2021-02-13T12:36:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateResponseTimeIsLessThanTwoSeconds -->
+        <test-method status="PASS" signature="ValidateSpaceSatelliteLaunchDetails()[pri:0, instance:com.test.GETSpaceXData@e25b2fe]" name="ValidateSpaceSatelliteLaunchDetails" duration-ms="2500" started-at="2021-02-13T12:36:05Z" finished-at="2021-02-13T12:36:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSpaceSatelliteLaunchDetails -->
+        <test-method status="PASS" signature="ValidateSuccessStatusCodeReturnedInResponse()[pri:0, instance:com.test.GETSpaceXData@e25b2fe]" name="ValidateSuccessStatusCodeReturnedInResponse" duration-ms="1003" started-at="2021-02-13T12:36:08Z" finished-at="2021-02-13T12:36:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSuccessStatusCodeReturnedInResponse -->
+      </class> <!-- com.test.GETSpaceXData -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
