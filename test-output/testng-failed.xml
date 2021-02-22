@@ -5,7 +5,7 @@
     <classes>
       <class name="com.test.GETSpaceXData">
         <methods>
-          <include name="ValidateResponseTimeIsLessThanTwoSeconds"/>
+          <include name="validateSpaceSatelliteLaunchDetails"/>
         </methods>
       </class> <!-- com.test.GETSpaceXData -->
     </classes>

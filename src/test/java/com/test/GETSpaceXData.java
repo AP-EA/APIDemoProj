@@ -16,7 +16,7 @@ import static org.hamcrest.Matchers.equalTo;
 public class GETSpaceXData{
 
 	@Test(groups = "SpacexDemo-AP")
-	public void ValidateSuccessStatusCodeReturnedInResponse() {
+	public void validateSuccessStatusCodeReturnedInResponse() {
 		// Log the request
 		RequestSpecification requestSpecification = new RestAssuredConfiguration().getRequestSpecification();	
 		System.out.println("\n\nRequest: \n\n\n" + requestSpecification.log().all());
@@ -39,7 +39,7 @@ public class GETSpaceXData{
 	}
 	
 	@Test(groups = "SpacexDemo-AP")
-	public void ValidateResponseTimeIsLessThanTwoSeconds() {
+	public void validateResponseTimeIsLessThanTwoSeconds() {
 
 		RequestSpecification requestSpecification = new RestAssuredConfiguration().getRequestSpecification();	
 		given().header("content-type","application/json").spec(requestSpecification).get(EndPoint.GET_SPACEXDATA);
@@ -51,7 +51,7 @@ public class GETSpaceXData{
 	}
 	
 	@Test(groups = "SpacexDemo-AP")
-	public void ValidateErrorInResponseWhenInvalidParameterPassedInRequest() {
+	public void validateErrorInResponseWhenInvalidParameterPassedInRequest() {
 
 		RequestSpecification requestSpecification = new RestAssuredConfiguration().getRequestSpecification();	
 		//Response response =  given().spec(requestSpecification).get(EndPoint.GET_SPACEXDATANEGATIVE);
@@ -63,7 +63,7 @@ public class GETSpaceXData{
 	}	
 	
 	@Test(groups = "SpacexDemo-AP")
-	public void ValidateSpaceSatelliteLaunchDetails() {
+	public void validateSpaceSatelliteLaunchDetails() {
 
 		RequestSpecification requestSpecification = new RestAssuredConfiguration().getRequestSpecification();	
 		given().header("content-type","application/json").spec(requestSpecification).get(EndPoint.GET_SPACEXDATA);
@@ -75,7 +75,7 @@ public class GETSpaceXData{
 		Assert.assertTrue(responseAsString.contains("details")); 
 		Assert.assertTrue(responseAsString.contains("flight_number")); 
 		Assert.assertTrue(responseAsString.contains("name")); 
-		response.then().body("name",equalTo("Starlink-18 (v1.0)"));	
+		response.then().body("name",equalTo("Starlink-19 (v1.0)"));	
 	}
 	
 }
